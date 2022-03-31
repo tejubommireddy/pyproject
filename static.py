@@ -2,13 +2,20 @@
 # class static_method():
 #     print("hi welcome to python")
 
-# static variable that through a instance
-class Employee:
-    company = "youtube"
-    def __init__(self,first_name, last_name):
-        self.first_name = first_name
-        self.last_name = last_name
-    def get_email(self):
-        return f'{self.first_name}.{self.last_name}@{Employee.company}.com'
-emp1 = Employee()
+#instance variables through static method
+
+# class Student:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+# s1=Student("jessa", 20)
+# print('Object 1')
+# print('name:', s1.name)
+# print('age:', s1.age)
+# s2=Student("kelly", 10)
+# print('object 2')
+# print('name:', s2.name)
+# print('age:', s2.age)
+
+
 

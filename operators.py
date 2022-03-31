@@ -28,5 +28,3 @@
 # print("a>=b is",a>=b)
 # print("a<b is",a<b)
 # print("a<=b is",a<=b)
-# list1 = [10, 20, 30, 40 ]
-# print("smallest element is:" , min(list1))
